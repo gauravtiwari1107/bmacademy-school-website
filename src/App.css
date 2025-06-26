@@ -1,0 +1,138 @@
+/* App.css */
+
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .grid-three {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .grid-two {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card-header {
+  height: 150px;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+  font-size: 1.5rem;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-body h3 {
+  margin-top: 0;
+}
+
+.card-body p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.card-body .small-text {
+  color: #888;
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+
+.button-group {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 8px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.btn-view {
+  background-color: #20c997;
+  color: #fff;
+  border: none;
+}
+
+.btn-download {
+  background-color: #fff;
+  color: #20c997;
+  border: 1px solid #20c997;
+}
+
+.btn-view:hover {
+  background-color: #17a2b8;
+}
+
+.btn-download:hover {
+  background-color: #f0f8f8;
+}
+
+/* Footer Styles */
+.footer-section {
+  background: #fff;
+  padding: 40px 20px;
+  margin-top: 40px;
+  border-top: 1px solid #ddd;
+}
+
+.footer-grid {
+  display: grid;
+  gap: 20px;
+}
+
+.footer-item {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.footer-item.verify {
+  background: #e6f7f3;
+}
+
+.footer-item.assist {
+  background: #fff4e6;
+}
+
+.footer-item h4 {
+  margin-top: 0;
+}
+
+.footer-bottom {
+  background: #19647e;
+  color: #fff;
+  text-align: center;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}

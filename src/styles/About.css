@@ -1,0 +1,174 @@
+.page {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.about-hero {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.about-hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.about-hero p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.about-description {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 60px 40px;
+  align-items: center;
+}
+
+.about-description .about-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.about-text {
+  max-width: 600px;
+}
+
+.about-text h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.about-text p {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #444;
+}
+
+.about-text ul {
+  padding-left: 20px;
+  list-style: none;
+}
+
+.about-text li {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.mission-vision {
+  background: #f8f8f8;
+  padding: 60px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.mv-item {
+  flex: 1 1 300px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.mv-item h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #0072ff;
+}
+
+.mv-item p {
+  font-size: 15px;
+  color: #555;
+}
+
+.why-choose-us {
+  background: #f0f9ff;
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.why-choose-us h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.choose-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+}
+
+.choose-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s;
+}
+
+.choose-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.principal-message {
+  padding: 60px 30px;
+  background: #fff;
+}
+
+.principal-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.principal-container img {
+  width: 200px;
+  border-radius: 50%;
+  border: 4px solid #0072ff;
+}
+
+.principal-container div {
+  flex: 1;
+}
+
+.principal-container h2 {
+  font-size: 26px;
+  margin-bottom: 16px;
+}
+
+.school-stats {
+  background: #eaf6fb;
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.stat-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+}
+
+.stat-card h3 {
+  font-size: 32px;
+  color: #0072ff;
+}

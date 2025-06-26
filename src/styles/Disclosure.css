@@ -1,0 +1,164 @@
+/* MandatoryDisclosure.css */
+
+.mandatory-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 3rem 2rem;
+  background-color: #f9fdfd;
+  color: #333;
+}
+
+.mandatory-header {
+  text-align: center;
+  background: linear-gradient(to right, #c2fdfd, #d2fdfb);
+  padding: 3rem 1rem;
+  border-radius: 10px;
+  margin-bottom: 3rem;
+}
+
+.mandatory-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #013f4e;
+  margin-bottom: 0.5rem;
+}
+
+.mandatory-header p {
+  font-size: 1.1rem;
+  color: #013f4e;
+}
+
+.disclosure-intro {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  padding: 0 1rem;
+}
+
+.tag {
+  background-color: #dafaf9;
+  color: #007b7b;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.disclosure-intro h2 {
+  font-size: 1.8rem;
+  color: #014951;
+  margin-bottom: 1rem;
+}
+
+.disclosure-intro p {
+  font-size: 1.05rem;
+  color: #444;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.disclosure-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.8rem;
+  margin-top: 2rem;
+}
+
+.disclosure-item {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+  flex-direction: row;
+  transition: all 0.3s ease;
+}
+
+.disclosure-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+}
+
+.disclosure-icon {
+  font-size: 2rem;
+  color: #01b7b7;
+  flex-shrink: 0;
+}
+
+.disclosure-item h4 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: #023b3b;
+}
+
+.disclosure-item p {
+  font-size: 0.97rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* PDF Button Styling */
+.pdf-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+  padding: 0.45rem 1rem;
+  background-color: #01b7b7;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.pdf-button:hover {
+  background-color: #018e8e;
+  transform: translateY(-2px);
+}
+
+
+/* Responsive Fix */
+@media (max-width: 768px) {
+  .disclosure-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .disclosure-icon {
+    margin-bottom: 0.8rem;
+  }
+}
+
+.disclosure-verification {
+  background-color: #e8fcfc;
+  border-left: 5px solid #01b7b7;
+  padding: 2rem 1.5rem;
+  border-radius: 10px;
+  margin: 3rem 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.disclosure-verification h2 {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  color: #014d4d;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.disclosure-verification p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.7;
+}
+

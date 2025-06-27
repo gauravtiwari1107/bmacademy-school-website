@@ -4,19 +4,35 @@ import { FaSearch, FaCamera, FaTheaterMasks, FaLayerGroup, FaStar } from 'react-
 import AnimatedSection from '../components/AnimatedSection';
 
 const galleryItems = [
+
   {
-    title: 'Science Exhibition',
+    title: 'Assembly',
     date: 'March 15, 2024',
-    tags: ['#science', '#exhibition', '#innovation'],
-    category: 'Academics',
-    image: '/gallery1.jpg',
+    tags: ['#school', '#prayer', '#humble'],
+    category: 'Assembly',
+    image: '/Assembly.jpg',
+  },
+  {
+    title: 'Independence Day',
+    date: 'March 15, 2024',
+    tags: ['#Independence', '#Culture', '#Dance'],
+    category: 'Independence',
+    image: '/Independence.jpg',
+  },
+
+  {
+    title: 'Republic Day',
+    date: 'March 15, 2024',
+    tags: ['#republic', '#cultural', '#events'],
+    category: 'Republic',
+    image: '/Republic.jpg',
   },
   {
     title: 'Annual Sports Day',
     date: 'February 10, 2024',
     tags: ['#sports', '#athletics', '#competition'],
     category: 'Sports',
-    image: '/gallery2.jpg',
+    image: '/Sports.jpg',
   },
   {
     title: 'Cultural Dance Performance',
@@ -29,11 +45,11 @@ const galleryItems = [
 
 const categories = [
   'All Photos',
-  'Academics',
+  'Assembly',
+  'Independence',
+  'Republic',
   'Sports',
   'Cultural Events',
-  'Field Trips',
-  'Achievements',
 ];
 
 const Gallery = () => {

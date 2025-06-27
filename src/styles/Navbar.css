@@ -1,59 +1,64 @@
 .navbar {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  background-color: #ffffff;
-  padding: 12px 32px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  align-items: center;
+  background-color: #0b3d91;
+  padding: 10px 20px;
+  color: white;
   position: sticky;
   top: 0;
-  z-index: 999;
+  z-index: 1000;
 }
 
-.navbar-left {
+.navbar-logo {
   display: flex;
   align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
-.logo {
-  height: 48px;
-  width: 48px;
-  margin-right: 10px;
+.navbar-logo img {
+  height: 40px;
 }
 
-.school-name {
-  font-size: 20px;
-  font-weight: 600;
-  color: #000;
-}
-
-.navbar-center {
+.nav-links {
   display: flex;
   gap: 20px;
 }
 
-.nav-link {
-  color: #333;
-  text-decoration: none;
-  font-weight: 500;
-  position: relative;
-}
-
-.nav-link:hover,
-.nav-link.active {
-  color: #0088cc;
-}
-
-.navbar-right .contact-btn {
-  background-color: #00b894;
+.nav-links a {
   color: white;
-  padding: 8px 16px;
-  border-radius: 6px;
   text-decoration: none;
   font-weight: 500;
-  transition: background-color 0.3s ease;
 }
 
-.contact-btn:hover {
-  background-color: #019874;
+.hamburger {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #0b3d91;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200px;
+    padding: 20px;
+    display: none;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
 }

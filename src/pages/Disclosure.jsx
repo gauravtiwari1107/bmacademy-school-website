@@ -37,11 +37,23 @@ const MandatoryDisclosure = () => {
       </section>
 
       <section className="disclosure-list">
+
+      <div className="disclosure-item">
+          <FaFileAlt className="disclosure-icon" />
+          <div>
+            <h4>Building Map</h4>
+            <p>Building Map of the School</p>
+            <a href="/documents/Building Map New.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" download>
+              📥 Download PDF
+            </a>
+          </div>
+        </div>
+
         <div className="disclosure-item">
           <FaFileAlt className="disclosure-icon" />
           <div>
             <h4>Lease Deed</h4>
-            <p>Legal lease document of the school premises</p>
+            <p>A legal document outlining the terms and conditions of a property rental agreement between landlord and tenant.</p>
             <a href="/documents/Lease Deed.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" download>
               📥 Download PDF
             </a>
@@ -52,7 +64,7 @@ const MandatoryDisclosure = () => {
           <FaFileAlt className="disclosure-icon" />
           <div>
             <h4>NOC</h4>
-            <p>No Objection Certificate issued by the State Education Department</p>
+            <p> A legal document stating that there are no objections from the issuing authority or person regarding a particular transaction.</p>
             <a href="/documents/NOC.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" download>
               📥 Download PDF
             </a>
@@ -63,7 +75,7 @@ const MandatoryDisclosure = () => {
           <FaFileAlt className="disclosure-icon" />
           <div>
             <h4>Trust Deed</h4>
-            <p>Official trust deed document for the school</p>
+            <p>A legal agreement that outlines the terms of a trust, including the trustee's responsibilities and the beneficiary's rights.</p>
             <a href="/documents/Trust deed.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" download>
               📥 Download PDF
             </a>
@@ -74,7 +86,7 @@ const MandatoryDisclosure = () => {
           <FaFileAlt className="disclosure-icon" />
           <div>
             <h4>Correction Deed</h4>
-            <p>Correction deed for modifications in original documentation</p>
+            <p> A document used to rectify errors or omissions in a previously registered deed.</p>
             <a href="/documents/Correction-Deed.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" download>
               📥 Download PDF
             </a>
@@ -85,12 +97,37 @@ const MandatoryDisclosure = () => {
           <FaFileAlt className="disclosure-icon" />
           <div>
             <h4>NOC 1</h4>
-            <p>Additional NOC document for revised approval</p>
+            <p> A specific type of No Objection Certificate, typically issued for land or property-related permissions.</p>
             <a href="/documents/NOC1.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" download>
               📥 Download PDF
             </a>
           </div>
         </div>
+
+        <div className="disclosure-item">
+          <FaFileAlt className="disclosure-icon" />
+          <div>
+            <h4>Safe Drinking Water and Sanitation</h4>
+            <p>Safe drinking water and sanitation ensure access to clean water and hygienic facilities, promoting health and preventing disease.
+</p>
+            <a href="/documents/Safe Drinking water and Sanitation.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" download>
+              📥 Download PDF
+            </a>
+          </div>
+        </div>
+
+        <div className="disclosure-item">
+          <FaFileAlt className="disclosure-icon" />
+          <div>
+            <h4>Water Sample Report</h4>
+            <p>A water sample report gives a brief analysis of water quality, showing key physical, chemical, and biological parameters for safety and usability.</p>
+            <a href="/documents/Water Sample Report.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" download>
+              📥 Download PDF
+            </a>
+          </div>
+        </div>
+
+
       </section>
     </div>
 

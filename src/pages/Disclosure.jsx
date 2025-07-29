@@ -41,10 +41,10 @@ const MandatoryDisclosure = () => {
       <div className="disclosure-item">
           <FaFileAlt className="disclosure-icon" />
           <div>
-            <h4>Building Map</h4>
-            <p>Building Map of the School</p>
-            <a href="/documents/Building Map New.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" download>
-              📥 Download PDF
+            <h4>Building Safety Certificate</h4>
+            <p>This document certifies that the school infrastructure complies with all mandatory safety regulations and standards, ensuring a secure environment for students and staff.</p>
+            <a href="/documents/Building Safety Certificate.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
+              View Document
             </a>
           </div>
         </div>
@@ -54,8 +54,8 @@ const MandatoryDisclosure = () => {
           <div>
             <h4>Lease Deed</h4>
             <p>A legal document outlining the terms and conditions of a property rental agreement between landlord and tenant.</p>
-            <a href="/documents/Lease Deed.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" download>
-              📥 Download PDF
+            <a href="/documents/Lease Deed.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
+              View Document
             </a>
           </div>
         </div>
@@ -65,8 +65,8 @@ const MandatoryDisclosure = () => {
           <div>
             <h4>NOC</h4>
             <p> A legal document stating that there are no objections from the issuing authority or person regarding a particular transaction.</p>
-            <a href="/documents/NOC.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" download>
-              📥 Download PDF
+            <a href="/documents/NOC.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
+              View Document
             </a>
           </div>
         </div>
@@ -76,8 +76,8 @@ const MandatoryDisclosure = () => {
           <div>
             <h4>Trust Deed</h4>
             <p>A legal agreement that outlines the terms of a trust, including the trustee's responsibilities and the beneficiary's rights.</p>
-            <a href="/documents/Trust deed.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" download>
-              📥 Download PDF
+            <a href="/documents/Trust deed.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
+              View Document
             </a>
           </div>
         </div>
@@ -87,8 +87,8 @@ const MandatoryDisclosure = () => {
           <div>
             <h4>Correction Deed</h4>
             <p> A document used to rectify errors or omissions in a previously registered deed.</p>
-            <a href="/documents/Correction-Deed.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" download>
-              📥 Download PDF
+            <a href="/documents/Correction-Deed.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
+              View Document
             </a>
           </div>
         </div>
@@ -98,8 +98,8 @@ const MandatoryDisclosure = () => {
           <div>
             <h4>NOC 1</h4>
             <p> A specific type of No Objection Certificate, typically issued for land or property-related permissions.</p>
-            <a href="/documents/NOC1.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" download>
-              📥 Download PDF
+            <a href="/documents/NOC1.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
+            View Document
             </a>
           </div>
         </div>
@@ -110,8 +110,8 @@ const MandatoryDisclosure = () => {
             <h4>Safe Drinking Water and Sanitation</h4>
             <p>Safe drinking water and sanitation ensure access to clean water and hygienic facilities, promoting health and preventing disease.
 </p>
-            <a href="/documents/Safe Drinking water and Sanitation.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" download>
-              📥 Download PDF
+            <a href="/documents/Safe Drinking water and Sanitation.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
+              View Document
             </a>
           </div>
         </div>
@@ -121,8 +121,28 @@ const MandatoryDisclosure = () => {
           <div>
             <h4>Water Sample Report</h4>
             <p>A water sample report gives a brief analysis of water quality, showing key physical, chemical, and biological parameters for safety and usability.</p>
-            <a href="/documents/Water Sample Report.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" download>
-              📥 Download PDF
+            <a href="/documents/Water Sample Report.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
+              View Document
+            </a>
+          </div>
+        </div>
+        <div className="disclosure-item">
+          <FaFileAlt className="disclosure-icon" />
+          <div>
+            <h4>Certificate of Land</h4>
+            <p>An official document that verifies the legal ownership and registration of the school land, issued by the concerned authority for transparency and legitimacy.</p>
+            <a href="/documents/Certificate of Land 2025.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
+              View Document
+            </a>
+          </div>
+        </div>
+        <div className="disclosure-item">
+          <FaFileAlt className="disclosure-icon" />
+          <div>
+            <h4>UDISE Certificate</h4>
+            <p>The UDISE (Unified District Information System for Education) certificate provides the school's government-verified education data, reflecting its enrollment, infrastructure, and administrative details.</p>
+            <a href="/documents/Udise.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
+              View Document
             </a>
           </div>
         </div>

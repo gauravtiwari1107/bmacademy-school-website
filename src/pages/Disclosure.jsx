@@ -62,6 +62,39 @@ const MandatoryDisclosure = () => {
         <div className="disclosure-item">
           <FaFileAlt className="disclosure-icon" />
           <div>
+            <h4>SMC</h4>
+            <p>This document outlines the formation and roles of the School Management Committee (SMC), including details of parent, teacher, and community members involved in the decision-making processes for school development and governance.</p>
+            <a href="/documents/SMC 2025-26.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
+              View Document
+            </a>
+          </div>
+        </div>
+
+        <div className="disclosure-item">
+          <FaFileAlt className="disclosure-icon" />
+          <div>
+            <h4>PTA</h4>
+            <p>This PDF highlights the structure and activities of the Parent-Teacher Association (PTA), aimed at fostering better communication and collaboration between parents and teachers to support students' educational progress.</p>
+            <a href="/documents/PTA.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
+              View Document
+            </a>
+          </div>
+        </div>
+
+        <div className="disclosure-item">
+          <FaFileAlt className="disclosure-icon" />
+          <div>
+            <h4>Recognition Certificate</h4>
+            <p>This certificate officially acknowledges the school’s affiliation and recognition by the relevant education authority, validating its compliance with educational standards and operational norms.</p>
+            <a href="/documents/Recognition.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
+              View Document
+            </a>
+          </div>
+        </div>
+
+        <div className="disclosure-item">
+          <FaFileAlt className="disclosure-icon" />
+          <div>
             <h4>Building Safety Certificate</h4>
             <p>This document certifies that the school infrastructure complies with all mandatory safety regulations and standards, ensuring a secure environment for students and staff.</p>
             <a href="/documents/Building Safety Certificate.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >

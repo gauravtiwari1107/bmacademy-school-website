@@ -3,10 +3,17 @@
   padding: 60px 40px;
 }
 
+
 .features-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .features-grid {
+    grid-template-columns: 1fr; /* Stack items vertically */
+  }
 }
 
 .feature-card {

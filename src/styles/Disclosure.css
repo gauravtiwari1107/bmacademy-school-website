@@ -68,6 +68,12 @@
   /* margin-top: 2rem; */
 }
 
+@media (max-width: 768px) {
+  .disclosure-list {
+    grid-template-columns: 1fr;
+  }
+}
+
 .disclosure-item {
   background-color: #ffffff;
   padding: 1.5rem;

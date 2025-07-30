@@ -38,7 +38,28 @@ const MandatoryDisclosure = () => {
 
       <section className="disclosure-list">
 
-      <div className="disclosure-item">
+        <div className="disclosure-item">
+          <FaFileAlt className="disclosure-icon" />
+          <div>
+            <h4>Academics Calendar</h4>
+            <p>This calendar outlines the academic schedule for the year, including start/end dates, holidays, exams, and important events conducted by the school.</p>
+            <a href="/documents/Academic Calender .pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
+              View Document
+            </a>
+          </div>
+        </div>
+        <div className="disclosure-item">
+          <FaFileAlt className="disclosure-icon" />
+          <div>
+            <h4>Fee Structure</h4>
+            <p>This document provides detailed information about the school’s tuition fees, admission charges, and other applicable costs for various classes and academic sessions.</p>
+            <a href="/documents/Fee Structure 2025-26.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
+              View Document
+            </a>
+          </div>
+        </div>
+
+        <div className="disclosure-item">
           <FaFileAlt className="disclosure-icon" />
           <div>
             <h4>Building Safety Certificate</h4>
@@ -87,7 +108,7 @@ const MandatoryDisclosure = () => {
           <div>
             <h4>Correction Deed</h4>
             <p> A document used to rectify errors or omissions in a previously registered deed.</p>
-            <a href="/documents/Correction-Deed.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
+            <a href="/documents/Correction Deed.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
               View Document
             </a>
           </div>
@@ -110,7 +131,7 @@ const MandatoryDisclosure = () => {
             <h4>Safe Drinking Water and Sanitation</h4>
             <p>Safe drinking water and sanitation ensure access to clean water and hygienic facilities, promoting health and preventing disease.
 </p>
-            <a href="/documents/Safe Drinking water and Sanitation.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
+            <a href="/documents/Safe Drinking water and Sanitation Certificate.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
               View Document
             </a>
           </div>
@@ -131,7 +152,7 @@ const MandatoryDisclosure = () => {
           <div>
             <h4>Certificate of Land</h4>
             <p>An official document that verifies the legal ownership and registration of the school land, issued by the concerned authority for transparency and legitimacy.</p>
-            <a href="/documents/Certificate of Land 2025.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
+            <a href="/documents/Cetrificate of Land 2025.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
               View Document
             </a>
           </div>
@@ -146,7 +167,16 @@ const MandatoryDisclosure = () => {
             </a>
           </div>
         </div>
-
+        <div className="disclosure-item">
+          <FaFileAlt className="disclosure-icon" />
+          <div>
+            <h4>Fire Safety Certificate</h4>
+            <p>This certificate verifies that the school premises meet all fire safety standards and are equipped with fire prevention systems, ensuring the safety of students and staff.</p>
+            <a href="/documents/Fire Safety Certificate .pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
+              View Document
+            </a>
+          </div>
+        </div>
 
       </section>
     </div>

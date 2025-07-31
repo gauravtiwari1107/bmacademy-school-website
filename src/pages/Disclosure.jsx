@@ -86,7 +86,7 @@ const MandatoryDisclosure = () => {
           <div>
             <h4>Recognition Certificate</h4>
             <p>This certificate officially acknowledges the school’s affiliation and recognition by the relevant education authority, validating its compliance with educational standards and operational norms.</p>
-            <a href="/documents/Recognition.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
+            <a href="/documents/Recogition.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
               View Document
             </a>
           </div>
@@ -117,20 +117,9 @@ const MandatoryDisclosure = () => {
         <div className="disclosure-item">
           <FaFileAlt className="disclosure-icon" />
           <div>
-            <h4>NOC</h4>
-            <p> A legal document stating that there are no objections from the issuing authority or person regarding a particular transaction.</p>
-            <a href="/documents/NOC.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
-              View Document
-            </a>
-          </div>
-        </div>
-
-        <div className="disclosure-item">
-          <FaFileAlt className="disclosure-icon" />
-          <div>
             <h4>Trust Deed</h4>
-            <p>A legal agreement that outlines the terms of a trust, including the trustee's responsibilities and the beneficiary's rights.</p>
-            <a href="/documents/Trust deed.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
+            <p>This document includes the original Trust Deed establishing the school’s legal foundation and governing structure, along with the Correction Deed that records any amendments or updates made to the original deed for legal and operational accuracy.</p>
+            <a href="/documents/Trust deed 2_merged.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
               View Document
             </a>
           </div>
@@ -139,19 +128,8 @@ const MandatoryDisclosure = () => {
         <div className="disclosure-item">
           <FaFileAlt className="disclosure-icon" />
           <div>
-            <h4>Correction Deed</h4>
-            <p> A document used to rectify errors or omissions in a previously registered deed.</p>
-            <a href="/documents/Correction Deed.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
-              View Document
-            </a>
-          </div>
-        </div>
-
-        <div className="disclosure-item">
-          <FaFileAlt className="disclosure-icon" />
-          <div>
-            <h4>NOC 1</h4>
-            <p> A specific type of No Objection Certificate, typically issued for land or property-related permissions.</p>
+            <h4>NOC</h4>
+            <p> This document certifies that the school has received formal permission from the concerned education authority to operate, confirming that there are no objections to its functioning.</p>
             <a href="/documents/NOC1.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
             View Document
             </a>

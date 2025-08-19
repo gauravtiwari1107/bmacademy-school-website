@@ -86,7 +86,7 @@ const MandatoryDisclosure = () => {
           <div>
             <h4>Recognition Certificate</h4>
             <p>This certificate officially acknowledges the school’s affiliation and recognition by the relevant education authority, validating its compliance with educational standards and operational norms.</p>
-            <a href="/documents/Recogition.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
+            <a href="/documents/Recognition.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
               View Document
             </a>
           </div>

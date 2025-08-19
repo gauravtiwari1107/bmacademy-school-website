@@ -194,7 +194,7 @@ const MandatoryDisclosure = () => {
           <div>
             <h4>Self Certification</h4>
             <p>This document is a formal declaration by the school affirming that it complies with all required norms and standards set by the education authority, including infrastructure, safety, and academic guidelines.</p>
-            <a href="/documents/Self Certification.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
+            <a href="/documents/Self Certification .pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
               View Document
             </a>
           </div>

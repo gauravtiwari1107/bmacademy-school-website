@@ -38,6 +38,17 @@ const MandatoryDisclosure = () => {
 
       <section className="disclosure-list">
 
+          <div className="disclosure-item">
+          <FaFileAlt className="disclosure-icon" />
+          <div>
+            <h4>Mandatory Public Details</h4>
+            <p> This document provides essential information about the school, including details of recognition, affiliation, infrastructure, staff, and facilities, made available as per education authority guidelines for transparency.</p>
+            <a href="/documents/MPD.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
+            View Document
+            </a>
+          </div>
+        </div>
+
         <div className="disclosure-item">
           <FaFileAlt className="disclosure-icon" />
           <div>

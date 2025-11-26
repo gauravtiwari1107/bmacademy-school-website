@@ -75,7 +75,7 @@ const MandatoryDisclosure = () => {
           <div>
             <h4>SMC</h4>
             <p>This document outlines the formation and roles of the School Management Committee (SMC), including details of parent, teacher, and community members involved in the decision-making processes for school development and governance.</p>
-            <a href="/documents/SMC 2025-26.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
+            <a href="/documents/SMC 2025.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
               View Document
             </a>
           </div>
@@ -86,7 +86,7 @@ const MandatoryDisclosure = () => {
           <div>
             <h4>PTA</h4>
             <p>This PDF highlights the structure and activities of the Parent-Teacher Association (PTA), aimed at fostering better communication and collaboration between parents and teachers to support students' educational progress.</p>
-            <a href="/documents/PTA.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
+            <a href="/documents/PTA 2025.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
               View Document
             </a>
           </div>
@@ -97,7 +97,7 @@ const MandatoryDisclosure = () => {
           <div>
             <h4>Recognition Certificate</h4>
             <p>This certificate officially acknowledges the school’s affiliation and recognition by the relevant education authority, validating its compliance with educational standards and operational norms.</p>
-            <a href="/documents/Recognition.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
+            <a href="/documents/Recognition 2025.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
               View Document
             </a>
           </div>
@@ -130,7 +130,7 @@ const MandatoryDisclosure = () => {
           <div>
             <h4>Trust Deed</h4>
             <p>This document includes the original Trust Deed establishing the school’s legal foundation and governing structure, along with the Correction Deed that records any amendments or updates made to the original deed for legal and operational accuracy.</p>
-            <a href="/documents/Trust deed 2_merged.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
+            <a href="/documents/trust deed.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
               View Document
             </a>
           </div>
@@ -154,6 +154,17 @@ const MandatoryDisclosure = () => {
             <p>Safe drinking water and sanitation ensure access to clean water and hygienic facilities, promoting health and preventing disease.
 </p>
             <a href="/documents/Safe Drinking water and Sanitation Certificate.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
+              View Document
+            </a>
+          </div>
+        </div>
+        <div className="disclosure-item">
+          <FaFileAlt className="disclosure-icon" />
+          <div>
+            <h4>Sexual Harrasment Committee</h4>
+            <p>This document provides details of the committee formed to address complaints related to sexual harassment, ensuring safety, protection, and a supportive environment for all students and staff.
+</p>
+            <a href="/documents/SEXUAL HARRASMENT COMMITEE.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
               View Document
             </a>
           </div>

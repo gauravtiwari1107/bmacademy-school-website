@@ -130,7 +130,7 @@ const MandatoryDisclosure = () => {
           <div>
             <h4>Trust Deed</h4>
             <p>This document includes the original Trust Deed establishing the school’s legal foundation and governing structure, along with the Correction Deed that records any amendments or updates made to the original deed for legal and operational accuracy.</p>
-            <a href="/documents/trust deed.pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
+            <a href="/documents/trust deed (2).pdf" target="_blank" rel="noopener noreferrer" className="pdf-button" >
               View Document
             </a>
           </div>

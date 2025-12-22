@@ -11,7 +11,7 @@ const AboutSection = () => {
     <section className="about-section">
       <div className="about-container">
         <div className="about-image">
-          <img src="/photo2.jpg" alt="About Our School" />
+          <img src="/photo1.jpg" alt="About Our School" />
         </div>
         <div className="about-content">
           <h2>Best School for Kids</h2>
